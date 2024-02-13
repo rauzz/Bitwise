@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 242 242" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-547.121,0)">
+        <g id="Artboard3" transform="matrix(1,0,0,1,263.121,0)">
+            <rect x="284" y="0" width="242" height="242" style="fill:none;"/>
+            <g transform="matrix(0.987978,0,0,1.12772,-270.954,-9.42744)">
+                <rect x="633" y="23" width="109" height="180" style="fill-opacity:0;stroke:rgb(0,220,167);stroke-width:5.66px;"/>
+            </g>
+            <g transform="matrix(1.03572,0,0,1.03572,-278.997,-7.83969)">
+                <path d="M668.121,80L659,119.256" style="fill:none;stroke:rgb(0,220,167);stroke-width:5.79px;stroke-linecap:square;stroke-linejoin:round;"/>
+            </g>
+            <g transform="matrix(1.12772,0,0,1.12772,-367.028,-9.42744)">
+                <circle cx="687.5" cy="188.5" r="7.5" style="fill-opacity:0;stroke:rgb(0,220,167);stroke-width:5.32px;stroke-linejoin:round;"/>
+            </g>
+            <g transform="matrix(1.03572,0,0,1.03572,-274.854,3.55319)">
+                <path d="M646,69L626.212,88.788L645.68,108.256" style="fill:none;stroke:rgb(0,220,167);stroke-width:5.79px;stroke-linecap:square;"/>
+            </g>
+            <g transform="matrix(-1.03572,0,0,1.03572,1091.42,3.55319)">
+                <path d="M646,69L626.212,88.788L645.68,108.256" style="fill:none;stroke:rgb(0,220,167);stroke-width:5.79px;stroke-linecap:square;"/>
+            </g>
+            <g transform="matrix(1.28083,0,0,1.38095,-457.513,-35.9766)">
+                <rect x="633.922" y="161" width="84.078" height="24" style="fill:none;stroke:rgb(0,220,167);stroke-width:4.51px;stroke-linejoin:round;"/>
+            </g>
+        </g>
+    </g>
+</svg>

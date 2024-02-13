@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 242 242" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-536,-955)">
+        <rect id="Artboard14" x="536" y="955" width="242" height="242" style="fill:none;"/>
+        <g id="Artboard141" serif:id="Artboard14">
+            <path d="M632,1013L683,1013L694,1003L733,1018C733,1018 785.434,1116.01 750,1148C750,1148 733.41,1156.66 719,1126C704.59,1095.34 682.949,1106.27 657,1106" style="fill:none;stroke:rgb(0,220,167);stroke-width:6px;"/>
+            <g transform="matrix(-1,0,0,1,1315.5,0)">
+                <path d="M632,1013L683,1013L694,1003L733,1018C733,1018 785.434,1116.01 750,1148C750,1148 733.41,1156.66 719,1126C704.59,1095.34 681.949,1105.27 657,1106" style="fill:none;stroke:rgb(0,220,167);stroke-width:6px;"/>
+            </g>
+            <path d="M623,1052L633,1052L633,1063L643,1063L643,1073L632,1073L632,1083L623,1083L623,1072L612,1072L612,1063L623,1063L623,1052Z" style="fill:none;stroke:rgb(0,220,167);stroke-width:6px;"/>
+            <circle cx="601" cy="1036" r="11" style="fill:none;stroke:rgb(0,220,167);stroke-width:6px;"/>
+            <circle cx="683.497" cy="1067.5" r="11.5" style="fill:none;stroke:rgb(0,220,167);stroke-width:6px;"/>
+            <g transform="matrix(1.08333,0,0,1.08333,-59.9167,-87.0833)">
+                <circle cx="725" cy="1039" r="6" style="fill:rgb(0,220,167);"/>
+            </g>
+            <g transform="matrix(1.08333,0,0,1.08333,-73.3422,-101.676)">
+                <circle cx="725" cy="1039" r="6" style="fill:rgb(0,220,167);"/>
+            </g>
+            <g transform="matrix(1.08333,0,0,1.08333,-88.1687,-88.3675)">
+                <circle cx="725" cy="1039" r="6" style="fill:rgb(0,220,167);"/>
+            </g>
+            <g transform="matrix(1.08333,0,0,1.08333,-73.8092,-74.7085)">
+                <circle cx="725" cy="1039" r="6" style="fill:rgb(0,220,167);"/>
+            </g>
+        </g>
+    </g>
+</svg>
