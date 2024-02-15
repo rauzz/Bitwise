@@ -17,8 +17,22 @@ html {
 }
 
 body {
+
 	background-color: $colorBackground;
 	color: $colorWhite;
+	// padding: 1rem;
+	position: relative;
+	min-height: 100vh;
+}
+
+.corner {
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	box-shadow: 0px 0px 80px 90px #104336;
+	z-index: -1;
 }
 
 .max1100 {
@@ -28,35 +42,147 @@ body {
 
 a {
 	text-decoration: none;
+	color: inherit;
 }
 
 h1 {
 	font-family: "Suez One", "Times New Roman", serif;
 	font-size: 5.4rem;
+	letter-spacing: 3px;
 }
 
 h2 {
 	font-family: "Suez One", "Times New Roman", serif;
 	font-size: 3.6rem;
+	letter-spacing: 3px;
 }
 
 h3 {
-	font-family: "Suez One", "Times New Roman", serif;
+   font-family: "Suez One", "Times New Roman", serif;
 	font-size: 2.4rem;
+   letter-spacing: 2px;
 }
 
 p {
 	font-size: 1.6rem;
 }
 
-p.caption {
-	font-size: 1rem;
+.caption {
+	font-size: 1.2rem;
+}
+
+.gray {
+	color: $colorGray;
+}
+
+.text {
+   background-color: $colorBackground;
+   border: 2px solid $colorGray;
+   padding: 1.1rem 2rem 1rem 2rem;
+   border-radius: 3rem;
+   color: $colorWhite;
+
+}
+
+button {
+   background-color: $colorBackground;
+   color: $colorWhite;
+   border: 2px solid $colorMain;
+   border-radius: 3rem;
+   padding: 1.1rem 2rem 1rem 2rem;
+   font-size: 1.6rem;
+   cursor: pointer;
+	font-family: "Nunito", "Arial", sans-serif;
+   transition: .2s;
+
+   &:hover {
+      color: $colorBackground;
+      background-color: $colorMain;
+   }
+}
+
+.capsule-group {
+	display: flex;
+	flex-wrap: wrap;
+   justify-content: center;
+	gap: 3rem;
+
+	.capsule-box {
+		width: 19.6rem;
+		height: 19.6rem;
+		border: 2px solid $colorMain;
+		border-radius: 1.5rem;
+		overflow: hidden;
+		position: relative;
+
+		.capsule-corner {
+			position: absolute;
+			width: 1px;
+			height: 1px;
+			top: 0;
+			right: 0;
+			box-shadow: 0px 0px 100px 100px #104336;
+			z-index: -2;
+		}
+
+		img {
+			position: absolute;
+			z-index: -1;
+		}
+
+		.capsule-text-box {
+			display: flex;
+			flex-direction: column;
+			position: absolute;
+			bottom: 0;
+			height: 11rem;
+			width: 100%;
+			// background: rgb(0,0,0);
+			background: linear-gradient(0deg, $colorBackground 60%, rgba(255, 255, 255, 0) 100%);
+
+			p.capsule-title {
+				font-size: 2rem;
+				padding: 1rem 0 0 1rem;
+			}
+
+			p.capsule-title2 {
+				font-size: 2rem;
+				padding: 0rem 0rem 0rem 1rem;
+			}
+
+			.tag-wrap {
+				display: flex;
+				gap: 1rem;
+				padding: .5rem 1rem 1rem 1rem;
+
+				.tag1,
+				.tag2 {
+					border: 2px solid $colorMain;
+					padding: 0.5rem 1rem;
+					border-radius: 2rem;
+					font-size: 1.2rem;
+				}
+
+				.tag2 {
+					border-color: $colorGray;
+				}
+			}
+		}
+	}
+}
+
+@keyframes rotate {
+	100% {
+		rotate: 360deg;
+	}
 }
 
 @import "nav";
+@import "footer";
 @import "landing";
 @import "categories";
 @import "frontend";
 @import "test";
 @import "partnership";
-@import "footer";
+@import "capsules";
+@import "media";

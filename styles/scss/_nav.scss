@@ -1,1 +1,60 @@
 @import "variables";
+
+nav {
+   position: fixed;
+	display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   max-width: 110rem;
+   width: 100%;
+   background-color: $colorBackground;
+   z-index: 2;
+   border-bottom: 1px solid #222222;
+
+	.logo-wrap {
+		display: flex;
+		align-items: center;
+      gap: .6rem;
+
+		img.logo {
+			width: 2.4rem;
+			height: 2.4rem;
+		}
+
+		.logo-text {
+			font-family: "Suez One", "Times New Roman", serif;
+			font-size: 2.6rem;
+		}
+	}
+
+	ul {
+      display: flex;
+      max-width: 38rem;
+      gap: 4.5rem;
+
+		li {
+			list-style: none;
+
+         a {
+            font-size: 1.8rem;
+            transition: .15s;
+
+            &:hover {
+               color: $colorMain;
+            }
+         }
+		}
+	}
+
+   .sign-up {
+      display: flex;
+      transition: .15s;
+      cursor: pointer;
+
+      &:hover {
+         color: $colorMain;
+      }
+   }
+}

@@ -1,0 +1,12 @@
+<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12.1739" cy="12.174" r="1.82609" fill="#9D9B9B"/>
+<circle cx="1.82609" cy="1.82609" r="1.82609" transform="matrix(1 0 0 -1 10.3478 4.26074)" fill="#9D9B9B"/>
+<circle cx="7.30434" cy="7.30436" r="1.82609" fill="#9D9B9B"/>
+<circle cx="1.82609" cy="12.174" r="1.82609" fill="#9D9B9B"/>
+<circle cx="1.82609" cy="1.82609" r="1.82609" transform="matrix(1 0 0 -1 0 4.26074)" fill="#9D9B9B"/>
+<path d="M1.21739 2.73916L2.43478 2.43481V12.7826L1.21739 12.4783V2.73916Z" fill="#9D9B9B"/>
+<rect x="3.04349" y="12.7827" width="1.21739" height="7.91304" transform="rotate(-90 3.04349 12.7827)" fill="#9D9B9B"/>
+<rect x="6.08694" y="7.12012" width="1.21739" height="7.91304" transform="rotate(-45 6.08694 7.12012)" fill="#9D9B9B"/>
+<rect width="1.46087" height="7.91304" transform="matrix(0.707107 0.707107 0.707107 -0.707107 6.08694 7.42139)" fill="#9D9B9B"/>
+<rect width="1.21739" height="7.91304" transform="matrix(-4.37114e-08 1 1 4.37114e-08 3.04349 1.82617)" fill="#9D9B9B"/>
+</svg>

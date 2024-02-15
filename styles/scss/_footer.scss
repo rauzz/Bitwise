@@ -1,1 +1,46 @@
 @import "variables";
+
+footer {
+	background-color: $colorBox;
+	min-height: 17rem;
+	color: $colorGray;
+
+	.max1100 {
+		display: flex;
+		gap: 3rem;
+
+		.footer-column {
+			display: flex;
+			flex-direction: column;
+			max-width: 19.6rem;
+			gap: 1.6rem;
+			margin-top: 2.5rem;
+			width: 100%;
+
+         a {
+            display: flex;
+            align-items: center;
+         }
+
+			span {
+				font-size: 1.7rem;
+            margin-right: .8rem;
+			}
+
+			.logo-wrap {
+				display: flex;
+				align-items: center;
+				gap: 0.6rem;
+
+				img.logo {
+					width: 1.6rem;
+				}
+
+				.logo-text {
+					font-family: "Suez One", "Times New Roman", serif;
+					font-size: 1.6rem;
+				}
+			}
+		}
+	}
+}
