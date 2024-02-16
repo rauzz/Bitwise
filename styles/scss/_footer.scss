@@ -20,6 +20,11 @@ footer {
          a {
             display: flex;
             align-items: center;
+            transition: .2s;
+
+            &:hover {
+               color: $colorWhite;
+            }
          }
 
 			span {

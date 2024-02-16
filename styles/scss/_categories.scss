@@ -1,1 +1,98 @@
 @import "variables";
+
+section.categories-header {
+	padding: 11rem 0;
+	text-align: center;
+
+	p {
+		max-width: 52rem;
+		margin: auto;
+		margin-top: 3rem;
+	}
+}
+
+section.categories-bars {
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.6rem;
+
+	.all-categories {
+		position: relative;
+		border: 2px solid $colorGray;
+		height: 3.3rem;
+		width: 25rem;
+		border-radius: 3rem;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+
+		p {
+			display: inline;
+		}
+
+		span {
+			padding-left: 0.5rem;
+		}
+
+		.filter {
+			display: flex;
+			align-items: center;
+			position: absolute;
+			margin: -2px -2px 0 0;
+			height: 3.3rem;
+			padding: 1rem;
+			right: 0;
+			top: 0;
+			border: 2px solid $colorMain;
+			border-radius: 3rem;
+
+			span {
+				padding-left: 0;
+			}
+		}
+	}
+
+	.search {
+		display: flex;
+		align-items: center;
+		width: 20rem;
+		padding: 0 1rem;
+		color: $colorGray;
+		border: 2px solid $colorGray;
+		border-radius: 3rem;
+	}
+}
+
+section.capsule-group {
+	margin-top: 3rem;
+}
+
+section.main-partners {
+	margin: 20rem auto;
+
+   h2 {
+      text-align: center;
+   }
+
+	.partners-group {
+		display: flex;
+		flex-wrap: wrap;
+      justify-content: center;
+		gap: 3rem;
+      margin-top: 4rem;
+      cursor: pointer;
+
+		.main-partner {
+			display: flex;
+
+			max-width: 53.5rem;
+			background-color: $colorBox;
+			border-radius: 1.5rem;
+			min-height: 9.3rem;
+
+			.partner-text {
+				padding: 1.5rem;
+			}
+		}
+	}
+}
