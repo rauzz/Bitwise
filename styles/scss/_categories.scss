@@ -70,17 +70,17 @@ section.capsule-group {
 section.main-partners {
 	margin: 20rem auto;
 
-   h2 {
-      text-align: center;
-   }
+	h2 {
+		text-align: center;
+	}
 
 	.partners-group {
 		display: flex;
 		flex-wrap: wrap;
-      justify-content: center;
+		justify-content: center;
 		gap: 3rem;
-      margin-top: 4rem;
-      cursor: pointer;
+		margin-top: 4rem;
+		cursor: pointer;
 
 		.main-partner {
 			display: flex;
@@ -94,5 +94,35 @@ section.main-partners {
 				padding: 1.5rem;
 			}
 		}
+	}
+}
+
+@media all and (max-width: 570px) {
+   section.main-partners {
+
+      img {
+         display: none;
+      }
+	}
+}
+
+@media all and (max-width: 490px) {
+   
+	section.categories-header {
+		padding: 15rem 0 10rem 0;
+	}
+
+	section.main-partners {
+		margin: 10rem 0;
+
+      img {
+         width: 9.3rem;
+         height: 8.3rem;
+      }
+	}
+
+	section.categories-bars {
+		flex-direction: column;
+		gap: 2rem;
 	}
 }

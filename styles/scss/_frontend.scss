@@ -169,3 +169,53 @@ section.roadmap {
 		}
 	}
 }
+
+@media all and (max-width: 1200px) {
+   section.frontend-main {
+
+      .courses-slider {
+
+         .slider-arrow {
+            display: none;
+         }
+      }
+   }
+
+   section.topics {
+      h3 {
+         margin: 10rem 0 2rem 0;
+         text-align: center;
+      }
+   
+      .topics-wrap {
+         display: flex;
+         gap: 2rem;
+         flex-wrap: wrap;
+         justify-content: center;
+   
+         .topic {
+            border: 2px solid $colorMain;
+            border-radius: 1.5rem;
+            padding: 1.5rem 6rem;
+            font-size: 2rem;
+         }
+      }
+   }
+}
+
+@media all and (max-width: 1200px) {
+   .roadmap-img-wrap {
+      display: none;
+   }
+}
+
+@media all and (max-width: 490px) {
+
+   section.frontend-main {
+	   padding-top: 10rem;
+   }
+
+   section.roadmap {
+      margin: 10rem 0;
+   }
+}

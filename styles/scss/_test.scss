@@ -164,3 +164,117 @@ section.test {
 		}
 	}
 }
+
+@media all and (max-width: 570px) {
+   section.test {
+	padding: 5rem 0 5rem 0;
+   margin-bottom: 10rem;
+
+
+      .test-buttons-group {
+         display: flex;
+         flex-direction: column;
+         max-width: 51.5rem;
+         align-items: flex-start !important;
+         gap: 2.4rem !important;
+   
+         .def-no {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            gap: 1rem;
+            margin-right: 2rem;
+            width: 137px;
+            height: 53px;
+            
+            .def-no-c {
+               width: 53px;
+               height: 53px;
+               border: 2px solid $colorGray;
+               border-radius: 50%;
+               transition: .2s;
+               cursor: pointer;
+   
+               &:hover {
+                  background-color: $colorGray;
+               }
+            }
+         }
+         
+         .no {
+            width: 40px;
+            height: 40px;
+            border: 2px solid $colorGray;
+            border-radius: 50%;
+            margin-left: .7rem;
+            transition: .2s;
+            cursor: pointer;
+            
+            &:hover {
+               background-color: $colorGray;
+            }
+         }
+         
+         .no-opinion {
+            display: flex;
+            flex-direction: row !important;
+            align-items: center;
+            margin-left: 1.3rem;
+            margin-top: 0 !important;
+            gap: 1rem;
+            
+            .no-opinion-c {
+               width: 27px;
+               height: 27px;
+               border: 2px solid $colorGray;
+               border-radius: 50%;
+               transition: .2s;
+               cursor: pointer;
+               
+               &:hover {
+                  background-color: $colorGray;
+               }
+               
+            }
+         }
+         
+         .yes {
+            width: 40px;
+            height: 40px;
+            border: 2px solid $colorMain;
+            border-radius: 50%;
+            margin-left: .7rem;
+            transition: .2s;
+            cursor: pointer;
+            
+            &:hover {
+               background-color: $colorMain;
+            }
+         }
+         
+         .def-yes {
+            display: flex;
+            align-items: flex-start;
+            margin: 0 !important;
+            gap: 1rem;
+            width: 142px;
+            height: 53px;
+            
+            .def-yes-c {
+               width: 53px;
+               height: 53px;
+               border: 2px solid $colorMain;
+               border-radius: 50%;
+               transition: .2s;
+               cursor: pointer;
+   
+               &:hover {
+                  background-color: $colorMain;
+               }
+            }
+         }
+      }
+   }
+
+   
+}
