@@ -1,1 +1,166 @@
 @import "variables";
+
+section.test-header {
+	padding: 15rem 0 12rem 0;
+	text-align: center;
+	max-width: 52rem;
+	margin: auto;
+}
+
+section.test {
+	width: 100%;
+	background-color: $colorBox;
+	border-radius: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+   margin-bottom: 20rem;
+
+	h3 {
+		text-align: center;
+      margin: 5rem auto 4rem auto;
+	}
+
+	.dot-group {
+		display: flex;
+		width: 30rem;
+		justify-content: space-between;
+		margin: auto;
+
+		.dot {
+			width: 12px;
+			height: 12px;
+			border: 2px solid $colorGray;
+			border-radius: 2rem;
+		}
+
+		.dot-active {
+			background-color: $colorMain;
+			border-color: $colorMain;
+		}
+	}
+
+	p.step-text {
+		text-align: center;
+		font-size: 2.4rem;
+		max-width: 70rem;
+		margin: 5rem auto;
+	}
+
+   .test-buttons-group {
+      display: flex;
+      max-width: 51.5rem;
+      align-items: center;
+      gap: 1rem;
+
+      .def-no {
+         display: flex;
+         align-items: center;
+         gap: 1rem;
+         margin-right: 2rem;
+         width: 137px;
+         height: 53px;
+         
+         .def-no-c {
+            width: 53px;
+            height: 53px;
+            border: 2px solid $colorGray;
+            border-radius: 50%;
+            transition: .2s;
+            cursor: pointer;
+
+            &:hover {
+               background-color: $colorGray;
+            }
+         }
+      }
+      
+      .no {
+         width: 40px;
+         height: 40px;
+         border: 2px solid $colorGray;
+         border-radius: 50%;
+         transition: .2s;
+         cursor: pointer;
+
+         &:hover {
+            background-color: $colorGray;
+         }
+      }
+      
+      .no-opinion {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-top: 3rem;
+         gap: 1rem;
+
+         .no-opinion-c {
+            width: 27px;
+            height: 27px;
+            border: 2px solid $colorGray;
+            border-radius: 50%;
+            transition: .2s;
+            cursor: pointer;
+
+            &:hover {
+               background-color: $colorGray;
+            }
+            
+         }
+      }
+      
+      .yes {
+         width: 40px;
+         height: 40px;
+         border: 2px solid $colorMain;
+         border-radius: 50%;
+         transition: .2s;
+         cursor: pointer;
+
+         &:hover {
+            background-color: $colorMain;
+         }
+      }
+      
+      .def-yes {
+         display: flex;
+         align-items: center;
+         margin-left: 2rem;
+         gap: 1rem;
+         width: 142px;
+         height: 53px;
+         
+         .def-yes-c {
+            width: 53px;
+            height: 53px;
+            border: 2px solid $colorMain;
+            border-radius: 50%;
+            transition: .2s;
+            cursor: pointer;
+
+            &:hover {
+               background-color: $colorMain;
+            }
+         }
+      }
+   }
+
+	button {
+		margin: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 6rem 0;
+      gap: .5rem;
+		height: 3.3rem;
+		padding: 2.1rem 2.5rem 2rem 3rem;
+		border: 2px solid $colorMain;
+		border-radius: 3rem;
+		max-width: 10rem;
+
+		span {
+			padding-left: 0;
+		}
+	}
+}

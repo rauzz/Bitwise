@@ -80,6 +80,10 @@ p {
   color: #E5E5E5;
 }
 
+.current {
+  color: #00DCA7;
+}
+
 button {
   background-color: #141414;
   color: #E5E5E5;
@@ -538,7 +542,7 @@ footer .max1100 .footer-column .logo-wrap .logo-text {
 }
 
 section.categories-header {
-  padding: 11rem 0;
+  padding: 15rem 0;
   text-align: center;
 }
 section.categories-header p {
@@ -646,17 +650,367 @@ section.main-partners .partners-group .main-partner .partner-text {
 }
 
 section.frontend-main {
-  padding-top: 20rem;
+  padding-top: 15rem;
+}
+section.frontend-main h2 {
+  margin-bottom: 3rem;
 }
 section.frontend-main span.arrow-back {
   font-size: 3rem;
   color: #E5E5E5;
   cursor: pointer;
+  color: #00DCA7;
+}
+section.frontend-main .filter-list {
+  font-size: 1.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+  margin: 2rem auto;
+}
+section.frontend-main .courses-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+section.frontend-main .courses-slider .slider-arrow {
+  width: 8.3rem;
+  height: 8.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section.frontend-main .courses-slider .slider-arrow span {
+  color: #00DCA7;
+  font-size: 3rem;
+}
+section.frontend-main .courses-slider .course-wrap {
+  width: 30.9rem;
+  height: 28.8rem;
+  padding: 1.6rem 1.7rem 1.7rem 1.6rem;
+  border: 2px solid #00DCA7;
+  border-radius: 1.5rem;
+  cursor: pointer;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
-section.frontend-main span.arrow-back:hover {
+section.frontend-main .courses-slider .course-wrap:hover {
+  border-color: #E5E5E5;
+}
+section.frontend-main .courses-slider .course-wrap .course-first img {
+  width: 27.5rem;
+  border-radius: 1rem;
+}
+section.frontend-main .courses-slider .course-wrap .course-first .course-title {
+  margin: 0.4rem 0;
+}
+section.frontend-main .courses-slider .course-wrap .course-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  margin-top: 0.5rem;
+}
+section.frontend-main .courses-slider .course-wrap .course-second .course-numbers .course-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.4rem;
+}
+section.frontend-main .courses-slider .course-wrap .course-second .course-numbers .course-rating .number1 {
   color: #00DCA7;
+}
+section.frontend-main .courses-slider .course-wrap .course-second .course-numbers .course-rating img {
+  width: 8.5rem;
+}
+section.frontend-main .courses-slider .course-wrap .course-second .course-numbers .course-rating .number2 {
+  color: #00DCA7;
+}
+section.frontend-main .courses-slider .course-wrap .course-second img.course-logo {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.8rem;
+}
+section.frontend-main button {
+  display: block;
+  margin: 3rem auto;
+}
+
+section.topics h3 {
+  margin: 10rem 0 2rem 0;
+}
+section.topics .topics-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3.3rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+section.topics .topics-wrap .topic {
+  border: 2px solid #00DCA7;
+  border-radius: 1.5rem;
+  padding: 1.5rem 6rem;
+  font-size: 2rem;
+}
+
+section.roadmap {
+  max-width: 66rem;
+  margin: 15rem auto;
+}
+section.roadmap h3 {
+  text-align: center;
+}
+section.roadmap .roadmap-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+section.roadmap .roadmap-main .roadmap-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+section.roadmap .roadmap-main .roadmap-text p {
+  margin: 4rem 0;
+}
+section.roadmap .roadmap-main .roadmap-text button {
+  width: 16rem;
+}
+section.roadmap .roadmap-main .roadmap-img-wrap {
+  position: relative;
+}
+section.roadmap .roadmap-main .roadmap-img-wrap img {
+  width: 17rem;
+  padding-top: 5rem;
+}
+section.roadmap .roadmap-main .roadmap-img-wrap .roadmap-shadow {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  -webkit-box-shadow: 0px 0px 50px 35px rgba(0, 220, 169, 0.4862745098);
+          box-shadow: 0px 0px 50px 35px rgba(0, 220, 169, 0.4862745098);
+  z-index: -2;
+  left: 45%;
+  top: 50%;
+}
+
+section.test-header {
+  padding: 15rem 0 12rem 0;
+  text-align: center;
+  max-width: 52rem;
+  margin: auto;
+}
+
+section.test {
+  width: 100%;
+  background-color: #1A1A1A;
+  border-radius: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20rem;
+}
+section.test h3 {
+  text-align: center;
+  margin: 5rem auto 4rem auto;
+}
+section.test .dot-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+}
+section.test .dot-group .dot {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #9D9B9B;
+  border-radius: 2rem;
+}
+section.test .dot-group .dot-active {
+  background-color: #00DCA7;
+  border-color: #00DCA7;
+}
+section.test p.step-text {
+  text-align: center;
+  font-size: 2.4rem;
+  max-width: 70rem;
+  margin: 5rem auto;
+}
+section.test .test-buttons-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 51.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+section.test .test-buttons-group .def-no {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  margin-right: 2rem;
+  width: 137px;
+  height: 53px;
+}
+section.test .test-buttons-group .def-no .def-no-c {
+  width: 53px;
+  height: 53px;
+  border: 2px solid #9D9B9B;
+  border-radius: 50%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+section.test .test-buttons-group .def-no .def-no-c:hover {
+  background-color: #9D9B9B;
+}
+section.test .test-buttons-group .no {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #9D9B9B;
+  border-radius: 50%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+section.test .test-buttons-group .no:hover {
+  background-color: #9D9B9B;
+}
+section.test .test-buttons-group .no-opinion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+section.test .test-buttons-group .no-opinion .no-opinion-c {
+  width: 27px;
+  height: 27px;
+  border: 2px solid #9D9B9B;
+  border-radius: 50%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+section.test .test-buttons-group .no-opinion .no-opinion-c:hover {
+  background-color: #9D9B9B;
+}
+section.test .test-buttons-group .yes {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #00DCA7;
+  border-radius: 50%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+section.test .test-buttons-group .yes:hover {
+  background-color: #00DCA7;
+}
+section.test .test-buttons-group .def-yes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 2rem;
+  gap: 1rem;
+  width: 142px;
+  height: 53px;
+}
+section.test .test-buttons-group .def-yes .def-yes-c {
+  width: 53px;
+  height: 53px;
+  border: 2px solid #00DCA7;
+  border-radius: 50%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+section.test .test-buttons-group .def-yes .def-yes-c:hover {
+  background-color: #00DCA7;
+}
+section.test button {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 6rem 0;
+  gap: 0.5rem;
+  height: 3.3rem;
+  padding: 2.1rem 2.5rem 2rem 3rem;
+  border: 2px solid #00DCA7;
+  border-radius: 3rem;
+  max-width: 10rem;
+}
+section.test button span {
+  padding-left: 0;
 }
 
 img[src="img/machine_learning.svg"] {
