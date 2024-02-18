@@ -289,7 +289,7 @@ nav .burger .show {
   display: block;
 }
 nav .burger img {
-  width: 4rem;
+  height: 4rem;
 }
 
 .nav-aside {
