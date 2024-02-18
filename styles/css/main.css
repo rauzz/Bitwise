@@ -248,6 +248,9 @@ nav .logo-wrap .logo-text {
   font-family: "Suez One", "Times New Roman", serif;
   font-size: 2.6rem;
 }
+nav .burger {
+  display: none;
+}
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -278,7 +281,74 @@ nav .sign-up {
 nav .sign-up:hover {
   color: #00DCA7;
 }
+nav .burger .icon {
+  display: none;
+  margin-right: 3rem;
+}
+nav .burger .show {
+  display: block;
+}
+nav .burger img {
+  width: 4rem;
+}
 
+.nav-aside {
+  background-color: #141414;
+  position: fixed;
+  height: calc(100vh - 60px);
+  width: 100vw;
+  left: -100vw;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  z-index: 20;
+  bottom: 0;
+}
+.nav-aside.active {
+  left: 0;
+}
+.nav-aside .nav-button-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+.nav-aside .nav-button-wrap a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2.6rem;
+  color: #E5E5E5;
+  font-family: "Nunito", "Arial", sans-serif;
+  padding: 3rem 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.nav-aside .nav-button-wrap a:hover {
+  background-color: rgba(255, 255, 255, 0.1450980392);
+}
+
+@media all and (max-width: 750px) {
+  nav ul {
+    display: none;
+  }
+  nav .sign-up {
+    display: none;
+  }
+  nav .burger {
+    display: block;
+  }
+}
 footer {
   background-color: #1A1A1A;
   min-height: 17rem;
