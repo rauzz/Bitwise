@@ -81,7 +81,7 @@ p {
    padding: 1.1rem 2rem 1rem 2rem;
    border-radius: 3rem;
    color: $colorWhite;
-
+   
 }
 
 .current {
@@ -98,10 +98,18 @@ button {
    cursor: pointer;
 	font-family: "Nunito", "Arial", sans-serif;
    transition: .2s;
-
+   
    &:hover {
       color: $colorBackground;
       background-color: $colorMain;
+   }
+}
+
+.button-gray {
+   border-color: $colorGray;
+
+   &:hover {
+      background-color: $colorGray;
    }
 }
 

@@ -101,6 +101,13 @@ button:hover {
   background-color: #00DCA7;
 }
 
+.button-gray {
+  border-color: #9D9B9B;
+}
+.button-gray:hover {
+  background-color: #9D9B9B;
+}
+
 .capsule-group {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -424,9 +431,6 @@ footer .max1100 .footer-column .logo-wrap .logo-text {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 3rem;
-}
-.question .question-text-wrap .question-button-wrap .button-gray {
-  border-color: #9D9B9B;
 }
 .question .question-img-wrap {
   position: relative;
@@ -1011,6 +1015,46 @@ section.test button {
 }
 section.test button span {
   padding-left: 0;
+}
+
+section.join {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 25rem;
+  max-width: 65rem;
+  margin: auto;
+  margin-bottom: 20rem;
+}
+section.join h2 {
+  text-align: center;
+}
+section.join .join-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section.join .join-first img {
+  width: 16rem;
+  margin-top: 4rem;
+}
+section.join .join-button-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  margin-top: 5rem;
 }
 
 img[src="img/machine_learning.svg"] {
