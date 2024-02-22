@@ -74,10 +74,10 @@ p {
 
 .text {
   background-color: #141414;
+  color: #E5E5E5;
   border: 2px solid #9D9B9B;
   padding: 1.1rem 2rem 1rem 2rem;
   border-radius: 3rem;
-  color: #E5E5E5;
 }
 
 .current {
@@ -1131,7 +1131,7 @@ section.categories-bars .search {
   width: 20rem;
   padding: 0 1rem;
   color: #9D9B9B;
-  border: 2px solid #9D9B9B;
+  border: 2px solid #00DCA7;
   border-radius: 3rem;
 }
 
@@ -1702,9 +1702,9 @@ section.test button span {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 !important;
     gap: 1rem;
     width: 142px;
