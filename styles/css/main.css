@@ -1322,6 +1322,13 @@ section.topics .topics-wrap .topic {
   border-radius: 1.5rem;
   padding: 1.5rem 6rem;
   font-size: 2rem;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+section.topics .topics-wrap .topic:hover {
+  background-color: #00DCA7;
+  color: #141414;
 }
 
 section.roadmap {
