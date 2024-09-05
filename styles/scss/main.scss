@@ -186,6 +186,10 @@ button {
 	}
 }
 
+::selection {
+   background: #2ec29d79;
+}
+
 @keyframes rotate {
 	100% {
 		rotate: 360deg;

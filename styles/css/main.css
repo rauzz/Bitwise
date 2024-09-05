@@ -188,6 +188,14 @@ button:hover {
   border-color: #9D9B9B;
 }
 
+::-moz-selection {
+  background: rgba(46, 194, 157, 0.4745098039);
+}
+
+::selection {
+  background: rgba(46, 194, 157, 0.4745098039);
+}
+
 @-webkit-keyframes rotate {
   100% {
     rotate: 360deg;
